@@ -1,4 +1,4 @@
-#Bienvenido a un nuevo minitutorial
+# Bienvenido a un nuevo minitutorial
 
 El día de hoy les enseñaré como recorrer un arreglo utilizando un ListView.
 
@@ -7,9 +7,9 @@ El día de hoy les enseñaré como recorrer un arreglo utilizando un ListView.
 
 
 
-##Vamos al código!
+## Vamos al código!
 
-#activity_main.xml
+# activity_main.xml
 
 En nuestro **activiy_main.xml** agregaremos un **linearlayout** con orientación vertical y agregaremos un **listview** al cual le asignaremos un id al que llamaremos **listView1**
 
@@ -31,7 +31,7 @@ En nuestro **activiy_main.xml** agregaremos un **linearlayout** con orientación
 </LinearLayout>
 ```
 
-#MainActivity
+# MainActivity
 
 En nuestro MainActivity crearemos un objeto llamado **lista** de tipo **ListView**. Dentro del método onCreate le asignaremos el id que creamos en el activity_main el cual era **ListView1** de manera que el código quede así:
 
@@ -88,31 +88,4 @@ Con esto hemos finalizado el tutorial. Espero seguirles enseñando más de Andro
 
 Les dejo el código completo en el siguiente enlace [Clic aquí para ver el código](https://github.com/fynio/arreglo_listview_android_studio.git)
 
-##Hasta la próxima.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Hasta la próxima.
