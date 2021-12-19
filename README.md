@@ -78,7 +78,7 @@ Si desean obtener el valor seleccionado de la lista les dejo el siguiente códig
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) 
 {
- Toast.makeText(getApplicationContext(), "Opcion seleccionada" + adapterView.getItemAtPosition(i)                        .toString(), Toast.LENGTH_SHORT).show();
+ Toast.makeText(getApplicationContext(), "Opcion seleccionada" + adapterView.getItemAtPosition(i).toString(), Toast.LENGTH_SHORT).show();
 
 }
         });
